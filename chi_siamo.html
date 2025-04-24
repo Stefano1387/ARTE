@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi Siamo - Galleria d'Arte</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Chi Siamo</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="quadri.html">Quadri</a></li>
+        <li><a href="sculture.html">Sculture</a></li>
+        <li><a href="lampade.html">Lampade</a></li>
+        <li><a href="arredo.html">Complementi di Arredo</a></li>
+        <li><a href="altre_opere.html">Altre Opere</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+        <li><a href="chi_siamo.html">Chi Siamo</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="team">
+      <div class="artist">
+        <img src="img/artista1.jpg" alt="Artista 1" class="artist-img">
+        <h2>Lucia Bianchi</h2>
+        <p>Lucia è una pittrice contemporanea italiana che lavora principalmente con acrilico e olio su tela. Le sue opere esplorano la luce, la natura e le emozioni interiori. Espone regolarmente in gallerie d'arte italiane ed europee.</p>
+      </div>
+
+      <div class="artist">
+        <img src="img/artista2.jpg" alt="Artista 2" class="artist-img">
+        <h2>Marco Verdi</h2>
+        <p>Marco è uno scultore e designer di oggetti artistici in legno e metallo. Le sue opere uniscono forme organiche e materiali industriali. È conosciuto per le sue installazioni pubbliche e le lampade d'autore.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Galleria d'Arte - Tutti i diritti riservati</p>
+  </footer>
+
+  <style>
+    .team {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2em;
+      padding: 2em;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .artist {
+      background: #1a1a1a;
+      padding: 1.5em;
+      border-radius: 10px;
+      text-align: center;
+      color: #eee;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    .artist-img {
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 1em;
+    }
+    .artist h2 {
+      margin-bottom: 0.5em;
+    }
+    .artist p {
+      font-size: 0.95em;
+      line-height: 1.5;
+    }
+  </style>
+</body>
+</html>
